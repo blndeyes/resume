@@ -12,7 +12,7 @@ email: walidkhalidlums@gmail.com
 website: github.com/blndeyes
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 github_username: blndeyes
@@ -27,15 +27,15 @@ content:
   - title: Technical Skills
     layout: text
     content: |
-      **Languages:** JavaScript, Python, HTML, CSS
+      **Languages:** JavaScript, Python, HTML, CSS, 
 
-      **Frontend:** React, Tailwind CSS, React Bootstrap, Recharts
+      **Frontend:** React, Tailwind CSS, React Bootstrap, 
 
-      **Backend:** Node.js, Express.js, REST APIs, JWT Authentication
+      **Backend:** Node.js, Express.js, Django, REST APIs, 
 
-      **Databases:** MongoDB, Mongoose
+      **Databases:** MongoDB, Mongoose, PostgreSQL
 
-      **Tools & Other:** Git, GitHub, GitHub Pages, Postman, npm
+      **Tools & Other:** Git, Docker, Kubernetes, CI/CD, Postman 
 
   - title: Education
     layout: list
@@ -45,7 +45,7 @@ content:
         caption: 2022 - Present
         sub_title: BS Computer Science
         description: |
-          Relevant coursework includes Machine Learning, Computer Vision, and Distributed Systems, alongside core software engineering and full-stack development projects.
+          Relevant coursework includes Machine Learning, Computer Vision, alongside core software engineering and full-stack development projects.
 
   - title: Projects
     layout: list
