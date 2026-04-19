@@ -21,7 +21,7 @@ linkedin_username: muhammad-walid-khalid-1b0586268
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  I'm a Computer Science student at LUMS with hands-on experience building full-stack web applications and AI-driven systems. I enjoy working across the stack — from designing REST APIs to building responsive frontends — and I'm particularly interested in applied AI and software engineering.
+  I'm a Computer Science student at LUMS with hands-on experience building full-stack web applications and AI-driven systems. I enjoy working across the stack from designing REST APIs to building responsive frontends and I'm particularly interested in applied AI and software engineering.
 
 content:
   - title: Technical Skills
@@ -51,7 +51,9 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: agriQual
+        title: AgriQual
+        link: https://github.com/ZarakQadirKhan/SPROJ-P08
+        link_text: GitHub
         quote: >
           AI-driven multi-agent system providing personalized agricultural advice to farmers.
         description: |
