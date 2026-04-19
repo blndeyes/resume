@@ -3,8 +3,17 @@
 ---
 
 $base-color: #3d5a80;
-$link-color: #3d5a80;
-$header-background-color: #1b2a3b;
-$header-text-color: #e0fbfc;
 
 @import 'modern-resume-theme';
+
+#header {
+  background: #1b2a3b !important;
+
+  a, h1, h2, p, li {
+    color: #e0fbfc !important;
+  }
+}
+
+a {
+  color: #3d5a80;
+}
