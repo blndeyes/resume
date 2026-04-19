@@ -6,10 +6,10 @@ $base-color: #3d5a80;
 
 @import 'modern-resume-theme';
 
-#header {
+header {
   background: #1b2a3b !important;
 
-  a, h1, h2, p, li {
+  a, h1, h2, p, li, span {
     color: #e0fbfc !important;
   }
 }
