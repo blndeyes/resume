@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: M. Walid Khalid
-title: Full-Stack Developer 
+title: Full-Stack Developer
 email: YOUR_EMAIL@example.com
 website: github.com/blndeyes
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username: YOUR_GITHUB_USERNAME
@@ -21,38 +21,9 @@ linkedin_username: YOUR_LINKEDIN_USERNAME
 # About Section
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a Computer Science student with hands-on experience building full-stack web applications and AI-driven systems. I enjoy working across the stack — ]from designing REST APIs to building responsive frontends and I'm particularly interested in applied AI and software engineering.
+  I'm a Computer Science student with hands-on experience building full-stack web applications and AI-driven systems. I enjoy working across the stack — from designing REST APIs to building responsive frontends and I'm particularly interested in applied AI and software engineering.
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: agriQual
-        quote: >
-          AI-driven multi-agent system providing personalized agricultural advice to farmers.
-        description: |
-          A senior project built as part of a team, agriQual uses specialized AI agents (Vision, Climate, and Advisory) working together to help farmers with crop disease detection, weather forecasting, and personalized recommendations. Designed to support non-technical users with an intuitive interface.
-
-      - layout: top-middle
-        title: Shop Management System
-        link: github.com/munkkeystudios/Shop-Management-System
-        link_text: GitHub
-        quote: >
-          Full-stack POS and inventory management system for retail businesses.
-        description: |
-          A comprehensive point-of-sale and inventory management system built with React and Node.js. Features include sales transactions, inventory tracking, supplier management, loan tracking, and report generation (PDF/CSV/Excel). Implements JWT-based authentication and role-based access control.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: YOUR_UNIVERSITY
-        caption: YOUR_START_YEAR - Present
-        sub_title: BS Computer Science
-        description: |
-          Relevant coursework and projects in software engineering, AI systems, and full-stack development.
-
   - title: Technical Skills
     layout: text
     content: |
@@ -65,6 +36,35 @@ content:
       **Databases:** MongoDB, Mongoose
 
       **Tools & Other:** Git, GitHub, GitHub Pages, Postman, npm
+
+  - title: Education
+    layout: list
+    content:
+      - layout: right
+        title: YOUR_UNIVERSITY
+        caption: YOUR_START_YEAR - Present
+        sub_title: BS Computer Science
+        description: |
+          Relevant coursework and projects in software engineering, AI systems, and full-stack development.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: agriQual
+        quote: >
+          AI-driven multi-agent system providing personalized agricultural advice to farmers.
+        description: |
+          A senior project built as part of a team, agriQual uses specialized AI agents (Vision, Climate, and Advisory) working together to help farmers with crop disease detection, weather forecasting, and personalized recommendations. Designed to support non-technical users with an intuitive interface.
+
+      - layout: right
+        title: Shop Management System
+        link: github.com/munkkeystudios/Shop-Management-System
+        link_text: GitHub
+        quote: >
+          Full-stack POS and inventory management system for retail businesses.
+        description: |
+          A comprehensive point-of-sale and inventory management system built with React and Node.js. Features include sales transactions, inventory tracking, supplier management, loan tracking, and report generation (PDF/CSV/Excel). Implements JWT-based authentication and role-based access control.
 
 # Footer
 footer_show_references: false
